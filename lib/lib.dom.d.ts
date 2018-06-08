@@ -314,7 +314,7 @@ interface ErrorEventInit extends EventInit {
 interface EventInit {
     bubbles?: boolean;
     cancelable?: boolean;
-    scoped?: boolean;
+    composed?: boolean;
 }
 
 interface EventListenerOptions {
